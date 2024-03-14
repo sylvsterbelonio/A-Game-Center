@@ -1,0 +1,18 @@
+D:\Game List Browser\Game List Browser\bin\Debug\Game List Browser.exe
+D:\Game List Browser\Game List Browser\bin\Debug\Game List Browser.pdb
+D:\Game List Browser\Game List Browser\bin\Debug\Game List Browser.xml
+D:\Game List Browser\Game List Browser\obj\Debug\ResolveAssemblyReference.cache
+D:\Game List Browser\Game List Browser\obj\Debug\Game_List_Browser.frmDashBoard.resources
+D:\Game List Browser\Game List Browser\obj\Debug\Game_List_Browser.Resources.resources
+D:\Game List Browser\Game List Browser\obj\Debug\Game List Browser.vbproj.GenerateResource.Cache
+D:\Game List Browser\Game List Browser\obj\Debug\Game List Browser.exe
+D:\Game List Browser\Game List Browser\obj\Debug\Game List Browser.xml
+D:\Game List Browser\Game List Browser\obj\Debug\Game List Browser.pdb
+D:\Game List Browser\Game List Browser\bin\Debug\Power .NET 8.dll
+D:\Game List Browser\Game List Browser\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\Game List Browser\Game List Browser\bin\Debug\office.dll
+D:\Game List Browser\Game List Browser\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Game List Browser\Game List Browser\bin\Debug\MySql.Data.dll
+D:\Game List Browser\Game List Browser\bin\Debug\Power .NET 8.pdb
+D:\Game List Browser\Game List Browser\bin\Debug\Power .NET 8.xml
+D:\Game List Browser\Game List Browser\obj\Debug\Game_List_Browser.frmGameType.resources

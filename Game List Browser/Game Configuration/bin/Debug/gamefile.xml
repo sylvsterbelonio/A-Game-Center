@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Game File Configuration-->
+<Data>
+  <Game_Data>
+    <Title>Torchlight</Title>
+    <Original_Path>C:\Users\Rhysel01\AppData\Roaming\runic games\torchlight</Original_Path>
+    <Destination_Path>D:\Games\tools\Game File Configuration\File</Destination_Path>
+  </Game_Data>
+  <Game_Data>
+    <Title>Torchlight 2</Title>
+    <Original_Path>C:\Users\Rhysel01\Documents\My Games\Runic Games\Torchlight 2</Original_Path>
+    <Destination_Path>D:\Games\tools\Game File Configuration\File</Destination_Path>
+  </Game_Data>
+</Data>

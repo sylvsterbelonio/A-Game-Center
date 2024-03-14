@@ -1,0 +1,2128 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Power.NET8
+</name>
+</assembly>
+<members>
+<member name="M:PowerNET8.mySQL.Init.SQL.AddSlashes(System.String)">
+	<summary>
+ Quote string with slashes
+ </summary>
+	<param name="InputTxt">Text string need to be escape with slashes</param>
+</member><member name="M:PowerNET8.myFunctions.Share.Themes.GetThemes(System.Windows.Forms.Form@,System.Windows.Forms.Timer@,System.String,System.Boolean)">
+	<summary>
+ Get the themes of windows 8
+ </summary>
+	<param name="form">Set the form as reference</param>
+	<param name="timer">Set the timer as for active windows event</param>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.CButton.Shape">
+	<summary>
+ The Shape of the Button as eShape choices (Ellipse, Rectangle, and Triangles)
+ </summary>
+</member><member name="P:PowerNET8.CButton.DimFactorHover">
+	<summary>
+ Get or Set how much to dim the color on mouse rollover. Positive to Lighten and negative to Darken
+ </summary>
+</member><member name="P:PowerNET8.CButton.DimFactorClick">
+	<summary>
+ Get or Set how much to dim the color on mouse down. Positive to Lighten and negative to Darken
+ </summary>
+</member><member name="P:PowerNET8.CButton.BorderColor">
+	<summary>
+ Get or Set the Border color
+ </summary>
+</member><member name="P:PowerNET8.CButton.BorderShow">
+	<summary>
+ Get or Set whether to show the Border
+ </summary>
+</member><member name="P:PowerNET8.CButton.FillType">
+	<summary>
+ The eFillType Fill Type to apply to the CButton
+ </summary>
+</member><member name="P:PowerNET8.CButton.FillTypeLinear">
+	<summary>
+ The Linear Blend type
+ </summary>
+</member><member name="P:PowerNET8.CButton.ColorFillSolid">
+	<summary>
+ The Solid Color to fill the CButton
+ </summary>
+</member><member name="P:PowerNET8.CButton.ColorFillBlend">
+	<summary>
+ The ColorBlend used to fill the CButton
+ </summary>
+</member><member name="P:PowerNET8.CButton.Text">
+	<summary>
+ Get or Set the Button Text
+ </summary>
+</member><member name="P:PowerNET8.CButton.TextSmoothingMode">
+	<summary>
+ Get or Set the TextrenderingHint fot the button text
+ </summary>
+</member><member name="P:PowerNET8.CButton.TextAlign">
+	<summary>
+ Get or Set the alignment for the text
+ </summary>
+</member><member name="P:PowerNET8.CButton.TextMargin">
+	<summary>
+ Get or Set the margion between the text and the button edge
+ </summary>
+</member><member name="P:PowerNET8.CButton.TextImageRelation">
+	<summary>
+ Get or Set the Relationship of the Text to the Image
+ </summary>
+</member><member name="P:PowerNET8.CButton.TextShadowShow">
+	<summary>
+ Get or Set if the Text has a shadow
+ </summary>
+</member><member name="P:PowerNET8.CButton.TextShadow">
+	<summary>
+ Get or Set the color of the Shadow Text
+ </summary>
+</member><member name="P:PowerNET8.CButton.Image">
+	<summary>
+ Get or Set the small Image next to text
+ </summary>
+</member><member name="P:PowerNET8.CButton.ImageAlign">
+	<summary>
+ Get or Set the placement of the Image
+ </summary>
+</member><member name="P:PowerNET8.CButton.ImageSize">
+	<summary>
+ Get or Set the Size of the Image
+ </summary>
+</member><member name="P:PowerNET8.CButton.Imagelist">
+	<summary>
+ Get or Set the ImageList control
+ </summary>
+</member><member name="P:PowerNET8.CButton.ImageIndex">
+	<summary>
+ Get or Set the ImageList control
+ </summary>
+</member><member name="P:PowerNET8.CButton.SideImage">
+	<summary>
+ Get or Set the Side Image
+ </summary>
+</member><member name="P:PowerNET8.CButton.SideImageSize">
+	<summary>
+ Get or Set the Size of the Side Image
+ </summary>
+</member><member name="P:PowerNET8.CButton.SideImageIsClickable">
+	<summary>
+ Get or Set if the Side Image raises its own click event
+ </summary>
+</member><member name="P:PowerNET8.CButton.SideImageBehindText">
+	<summary>
+ Get or Set if the Side Image is in front or behind the Text
+ </summary>
+</member><member name="P:PowerNET8.CButton.SideImageAlign">
+	<summary>
+ Get or Set the Side Image Alignment
+ </summary>
+</member><member name="P:PowerNET8.CButton.FocalPoints">
+	<summary>
+ The CenterPoint and FocusScales for the ColorBlend
+ </summary>
+</member><member name="M:PowerNET8.CButton.CenterPtTrackerRectangle">
+	<summary>
+ This gets the Rectangle around the CenterPt for the DesignTime interaction
+ </summary>
+</member><member name="M:PowerNET8.CButton.FocusPtTrackerRectangle">
+	<summary>
+ This gets the Rectangle around the FocusPt for the DesignTime interaction
+ </summary>
+</member><member name="P:PowerNET8.CButton.UseMnemonic">
+	<summary>
+ If true, the first character proceeded by an ampersand will be used as the button's mnemonic key.
+ </summary>
+</member><member name="M:PowerNET8.CButton.DimTheColor(System.Drawing.Color,System.Int32)">
+	<summary>
+ This function takes the given color and Lightens or Darkens it by the given value 
+ </summary>
+	<param name="DimColor">Base Color object to be changed</param>
+	<param name="DimDegree">Positive value to darken and negative value to lighten DimColor</param>
+</member><member name="M:PowerNET8.CButton.GrayTheColor(System.Drawing.Color)">
+	<summary>
+ This function takes the given color and returns its gray equivilant
+ </summary>
+	<param name="GrayColor">Color object to be grayed</param>
+</member><member name="T:PowerNET8.CButton">
+	<summary>
+ Custom Button Control with Gradient Colors and Extra Image (VB.NET)
+ </summary>
+	<remarks>v2.0</remarks>
+</member><member name="M:PowerNET8.MyListBoxExtension.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.MyListBoxExtension.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member><member name="M:PowerNET8.myValidation.Share.Controls.Panels.checkNameExist(System.Object,System.String)">
+	<summary>
+ Checks the panel object if it is exist in the form
+ </summary>
+	<param name="form">Set the form as reference to this class</param>
+	<param name="searchFilter">Set the panel name you wanted to search</param>
+	<returns>Return true if the panel is exist</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myValidation.Share.Controls.Panels">
+	<summary>
+ This class handles the panel object for validation purpose only
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myValidation.Share.Controls.Forms.checkChildForm(System.Windows.Forms.Form,System.String)">
+	<summary>
+ Use this function when checking if a childform is already loaded based on the form name.
+ </summary>
+	<param name="frmMe">Set the Form</param>
+	<param name="strFormName">Set the name of the form</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myValidation.Share.Controls.Forms.getMDIChildForm(System.Windows.Forms.Form,System.String)">
+	<summary>
+ Use this function when activating a childform that is already loaded based on the form name.
+ </summary>
+	<param name="frmMe">Set the form</param>
+	<param name="strFormName">Set the name of the form</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myValidation.Share.Controls.Forms">
+	<summary>
+ This class handles the form object for validation purpose only
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myValidation.Share.Application.verifyDoubleSystemOpened(System.String)">
+	<summary>
+ It verifies the system if the same system is running to avoid multiple launch
+ </summary>
+	<param name="system_Name">Set the name of the system</param>
+	<returns>Return true the system is run twice</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myValidation.Share.Application">
+	<summary>
+ This class handles the application for validation purpose only
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myValidation.Init.StringReader.clear">
+	<summary>
+ It clears the containers of all items
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myValidation.Init.StringReader.addParameter(System.String)">
+	<summary>
+ It adds the item and will be stored in the container
+ </summary>
+	<param name="Value">Set the name of the item</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myValidation.Init.StringReader.groupParameters(System.String)">
+	<summary>
+ It adds the item directly in one line. Make your you have a comma separator
+ </summary>
+	<param name="value">Set the group of items that needs to be added in the container</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myValidation.Init.StringReader.validateIFContains(System.String)">
+	<summary>
+ Validates the item if the search filter is match among the following items which you have previously added
+ </summary>
+	<param name="testValue">Set the search filter name</param>
+	<returns>Return true if the search name is match among the list item</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myValidation.Init.StringReader">
+	<summary>
+ This class handles a bunch of items that needs to be searched if one of them is available from the list
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myString.Share.EnDecryption.Execute(System.String)">
+	<summary>
+ It adds the security for the data which is very confidential to anyone who will gain access into it
+ </summary>
+	<param name="Text">Set the data to be encrypted or decrypted</param>
+	<returns>Get the encrypted or decrypted data</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myString.Share.EnDecryption">
+	<summary>
+ This class will help to encrypt or decrypt the data to maintain the privacy of the content. This is for security purpose only
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myExceptionHandler.OnThreadException(System.Object,System.Threading.ThreadExceptionEventArgs)">
+	<summary>
+ It handles the exception event
+ </summary>
+	<param name="sender">Specify the object Exception Event</param>
+	<param name="t">Specify the Thread Exception Event Argument</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myExceptionHandler.OnThreadException(System.Exception,System.String)">
+	<summary>
+ It calls the Thread Exception handler by calling the class. You can used this method within the try and catch area
+ </summary>
+	<param name="e">Set the error exception</param>
+	<param name="Msg">Set the other message that clarifies the error exception</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.DefaultColor.getContentBackColor">
+	<summary>
+ It gets the content backcolor of the form
+ </summary>
+	<returns>Get the content backcolor of the form</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.DefaultColor.getBackGroundColor">
+	<summary>
+ It gets the background color of all objects of the entire system
+ </summary>
+	<returns>Get the background color of the object</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.DefaultColor.getAccentColor">
+	<summary>
+ It gets the accent color of all objects of the entire system
+ </summary>
+	<returns>Get the accent color of the object</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.DefaultColor">
+	<summary>
+ This class is used for getting the default color of the system before the user customize their color they want
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.DColors">
+	<summary>
+ List of standard colors of windows 9
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.getDefaultColor(PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.DColors)">
+	<summary>
+ You can set the standard color of windows 8 by specifying the list
+ </summary>
+	<param name="type">Specify what list of standard colors of windows 8</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.gBackColor">
+	<summary>
+ It gets a color for backcolor purpose
+ </summary>
+	<returns>Get the backcolor</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.gHoverBackColor">
+	<summary>
+ It gets a mousemove event color for backcolor purpose
+ </summary>
+	<returns>Get the MouseMove Event Backcolor</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.gPressedBackColor">
+	<summary>
+ It gets a mousedown event color for backcolor purpose
+ </summary>
+	<returns>Get the MouseDown Event Backcolor</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.gForeColor">
+	<summary>
+ It gets a color for forecolor purpose
+ </summary>
+	<returns>Get the forecolor</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.gHoverForeColor">
+	<summary>
+ It gets a MouseMove event for forecolor purpose
+ </summary>
+	<returns>Get the MouseMove event forecolor</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor.gPressedForeColor">
+	<summary>
+ It gets a MouseDown event for forecolor purpose
+ </summary>
+	<returns>Get the MouseDown event forecolor</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.StandardColor">
+	<summary>
+ This class is used to get the standard color of windows 8 platform themes
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.General.TypeColor">
+	<summary>
+ List of colors of windows 8 skin
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.General.GetBackgroundColor(PowerNET8.myColor.Share.SystemColor.BackgroundColor.General.TypeColor,System.Int32,System.Int32)">
+	<summary>
+ It gets the specific color within the specified dialog color picker in the system
+ </summary>
+	<param name="type">Set Type of Color</param>
+	<param name="row">Set the number of row from [0-5]</param>
+	<param name="column">Set the number of columns from [0-5]</param>
+	<returns>Get the color based on the specified color type, rows and columns</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.General.getSColor(System.Int32)">
+	<summary>
+ It gets the selection color which is found beneath the diolog colode picker
+ </summary>
+	<param name="column">Set the column number from [0-17] to get the color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.General">
+	<summary>
+ The class will let the system select what type of color is used to be displayed in the background color and selection color of the color picker panel such as BACKGROUND and ACCENT themecolor for windows 8
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Black.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Black
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Black">
+	<summary>
+ It gets the black color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Gray.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Gray
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Gray">
+	<summary>
+ It gets the gray color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.BlueViolete.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Blue Violete
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.BlueViolete">
+	<summary>
+ It gets the blue violete color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Violete.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Violete
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Violete">
+	<summary>
+ It gets the violete color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Pink.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Pink
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Pink">
+	<summary>
+ It gets the pink color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.HotPink.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Hot Pink
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.HotPink">
+	<summary>
+ It gets the hot pink color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Red.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Red
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Red">
+	<summary>
+ It gets the red color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Scarlet.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Scarlet
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Scarlet">
+	<summary>
+ It gets the scarlet color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Orange.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Orange
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Orange">
+	<summary>
+ It gets the orange color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.OrangeYellow.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Orange Yellow
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.OrangeYellow">
+	<summary>
+ It gets the orange yellow color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.YellowOrange.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Yellow Orange
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.YellowOrange">
+	<summary>
+ It gets the yellow orange color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Yellow.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Yellow
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Yellow">
+	<summary>
+ It gets the yellow color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.YellowGreen.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Yellow Green
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.YellowGreen">
+	<summary>
+ It gets the yellow green color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Green.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Green
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Green">
+	<summary>
+ It gets the green color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.BlueGreen.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Blue Green
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.BlueGreen">
+	<summary>
+ It gets the blue green color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.SkyBlue.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Sky Blue
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.SkyBlue">
+	<summary>
+ It gets the sky blue color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Cyan.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Cyan
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Cyan">
+	<summary>
+ It gets the cyan color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Blue.getColor(System.Int32,System.Int32)">
+	<summary>
+ Get color Blue
+ </summary>
+	<param name="row">Set the number of row from [0-5] to pick a color</param>
+	<param name="column">Set the number of column from [0-5] to pick a color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.SystemColor.BackgroundColor.Blue">
+	<summary>
+ It gets the blue color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.Converter.StringToColor.getHTMLColor(System.String)">
+	<summary>
+ It gets HTML color code and converts into system color
+ </summary>
+	<param name="values">Set the HTML Color code to convert it. It must be #[000000] format</param>
+	<returns>Get Converted System Color</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.Converter.StringToColor.getRGBColor(System.String)">
+	<summary>
+ It gets an RGB color string and converts into system color
+ </summary>
+	<param name="values">Set the RBB string color to convert it</param>
+	<returns>Get Converted System Color</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.Converter.StringToColor">
+	<summary>
+ It converts the string value into color value
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myColor.Share.Converter.ColorToString.getHTMLColor(System.Drawing.Color)">
+	<summary>
+ It gets the HTML color code
+ </summary>
+	<param name="color">Set the system color to convert it</param>
+	<returns>Get the string color</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myColor.Share.Converter.ColorToString">
+	<summary>
+ It converts the color value into string color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Init.contextMenuStripRenderer.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.myControls.Init.contextMenuStripRenderer.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member><member name="M:PowerNET8.myControls.Init.toolStripRenderer.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.myControls.Init.toolStripRenderer.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member><member name="M:PowerNET8.myControls.Share.Objects.getAllObject(System.Windows.Forms.Form)">
+	<summary>
+ It gathers all objects which are found in the form and will be stored in the collection
+ </summary>
+	<param name="form">Set the form to be used as reference</param>
+	<returns>Get all objects within the form specified</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Share.Objects.getObjectName(System.Windows.Forms.Form,System.String)">
+	<summary>
+ It searches the selected object for the purpose of assigning its properties
+ </summary>
+	<param name="form">Set the form to be used as reference</param>
+	<param name="searchFilter">Specify the name of the object you want to search</param>
+	<returns>Get the selected object based on the search criteria</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myControls.Share.Objects">
+	<summary>
+ This class is used to control a specific object in the system. You can use this without setting a variable name
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Share.Forms.TitleBar.createTitleBar(System.Windows.Forms.Form@,System.String,System.String)">
+	<summary>
+ It helps to create and design a title bar which is similar to the windows 8 platform regardless of the OS version it can still simulate the windows 8 version
+ </summary>
+	<param name="form">
+ Set the form as reference upon handling the creation of the object</param>
+	<param name="runCode">It needs an authentication to be able to use this function</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myControls.Share.Forms.TitleBar">
+	<summary>
+ This class is not intented to be used by other purposes. This is a reserved to create and simulate the windows 8 platform
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Share.Forms.childForm.load(System.Windows.Forms.Form,System.Windows.Forms.Form@)">
+	<summary>
+ It loads the child form over the parent form
+ </summary>
+	<param name="parentForm">Set the Parent form as reference for the child form</param>
+	<param name="childForm">Set the child form</param>
+	<returns>Use for checking purpose</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Share.Forms.childForm.subLoad(System.Windows.Forms.Form,System.Windows.Forms.Form@)">
+	<summary>
+ It loads the sub child over the child form for the purpose of maintaining the sub child and still within the parent MDI container 
+ </summary>
+	<param name="childForm">Set the child form as reference for the sub child form</param>
+	<param name="subChildForm">Set the sub child form</param>
+	<returns>Use for checking purpose</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Share.Forms.childForm.loadModalForm(System.Windows.Forms.Form@)">
+	<summary>
+ It loads the child form and hides the icon so that it will not detect by the user that the form is separated from the parent form MDI container
+ </summary>
+	<param name="ChildForm">Set the child form</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myControls.Share.Forms.childForm">
+	<summary>
+ This class handles the show form within the parent MDI container
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Init.Objects.getAllObject(System.Windows.Forms.Form)">
+	<summary>
+ It gathers all objects which are found in the form and will be stored in the collection
+ </summary>
+	<param name="form">Set the form to be used as reference</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Init.Objects.getObjectName(System.String)">
+	<summary>
+ It searches the selected object for the purpose of assigning its properties
+ </summary>
+	<param name="searchFilter">Specify the name of the object you want to search</param>
+	<returns>Get the selected object based on the search criteria</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myControls.Init.Objects">
+	<summary>
+ This class is used to control a specific object in the system. You must declare as variable so that you can use this class method
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myControls.Init.DataTables.DataTableDesigner.FieldType">
+	<summary>
+ List of datacolumn type in the column
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Init.DataTables.DataTableDesigner.newTable(System.String)">
+	<summary>
+ Use to create new table and specify the respective name of the datatable
+ </summary>
+	<param name="name">Set the name of the datatable</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Init.DataTables.DataTableDesigner.refTable(System.Data.DataTable@,System.String)">
+	<summary>
+ If there is table already exist, you can represent the datatable to be used as a designer of this class
+ </summary>
+	<param name="datatable">Set the datatable as reference to this class</param>
+	<param name="tablename">Set the name of the datatable</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Init.DataTables.DataTableDesigner.addColumnField(System.String,PowerNET8.myControls.Init.DataTables.DataTableDesigner.FieldType)">
+	<summary>
+ You can add your own column field type
+ </summary>
+	<param name="name">Set the column name</param>
+	<param name="field_type">Specify what type of field you want to inherit from your column</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Init.DataTables.DataTableDesigner.addColumnField_StringStyle(System.String,System.String)">
+	<summary>
+ You can add your own column filed and you must specify your own column type field
+ </summary>
+	<param name="name">Set the column name</param>
+	<param name="field_type">Set the field type of the column</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myControls.Init.DataTables.DataTableDesigner.getTable">
+	<summary>
+ It gets the designed datatable once you have done of adding a column field in your table
+ </summary>
+	<returns>Get the designed Datatable</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myControls.Init.DataTables.DataTableDesigner">
+	<summary>
+ This class handles the design of the datatable columns and rows. You can create your own datatables without doing much code
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myRenderer_ContextMenuStrip.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.myRenderer_ContextMenuStrip.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member><member name="P:PowerNET8.gLabel.MouseOver">
+	<summary>
+ Get or Set if the gLabel will Glow when the mouse is over it
+ </summary>
+</member><member name="P:PowerNET8.gLabel.MouseOverColor">
+	<summary>
+ Get or Set what color the gLabel will Glow when the mouse is over it
+ </summary>
+</member><member name="P:PowerNET8.gLabel.MouseOverForeColor">
+	<summary>
+ Get or Set what Forecolor the gLabel will be when the mouse is over it
+ </summary>
+</member><member name="P:PowerNET8.gLabel.Checked">
+	<summary>
+ Get or Set the Checked status
+ </summary>
+</member><member name="P:PowerNET8.gLabel.CheckedType">
+	<summary>
+ Get or Set the Checked behavior
+ </summary>
+</member><member name="P:PowerNET8.gLabel.CheckedColor">
+	<summary>
+ Get or Set what color the gLabel will Glow when the mouse is over it
+ </summary>
+</member><member name="P:PowerNET8.gLabel.FeatherState">
+	<summary>
+ Get or Set if the text is glowing
+ </summary>
+</member><member name="P:PowerNET8.gLabel.Feather">
+	<summary>
+ Get or Set the level of feathering (blurring) of the Outer Glow
+ </summary>
+</member><member name="P:PowerNET8.gLabel.Pulse">
+	<summary>
+ Get or Set if the gLabel should be Pulsing or not
+ </summary>
+</member><member name="P:PowerNET8.gLabel.PulseSpeed">
+	<summary>
+ Get or Set how fast to pulse the gLabel
+ </summary>
+</member><member name="P:PowerNET8.gLabel.ShadowOffset">
+	<summary>
+ Get or Set how far to offset the shadow from the text
+ </summary>
+</member><member name="P:PowerNET8.gLabel.ShadowState">
+	<summary>
+ Get or Set if the gLabel displays the shadow text
+ </summary>
+</member><member name="P:PowerNET8.gLabel.ShadowColor">
+	<summary>
+ Get or Set what color to use for the shadow text
+ </summary>
+</member><member name="P:PowerNET8.gLabel.GlowMatchChecked">
+	<summary>
+ Get or Set if the text is glowing
+ </summary>
+</member><member name="P:PowerNET8.gLabel.GlowState">
+	<summary>
+ Get or Set if the text is glowing
+ </summary>
+</member><member name="P:PowerNET8.gLabel.Glow">
+	<summary>
+ Get or Set how far out the text glows
+ </summary>
+</member><member name="P:PowerNET8.gLabel.GlowColor">
+	<summary>
+ Get or Set what color to use for the Glow
+ </summary>
+</member><member name="P:PowerNET8.gLabel.Border">
+	<summary>
+ Get or Set to show or not show the border
+ </summary>
+</member><member name="P:PowerNET8.gLabel.BorderColor">
+	<summary>
+ Get or Set what Color to draw the border
+ </summary>
+</member><member name="P:PowerNET8.gLabel.BorderWidth">
+	<summary>
+ Get or Set what Width to draw the border
+ </summary>
+</member><member name="P:PowerNET8.gLabel.AutoFit">
+	<summary>
+ Get or Set if the text is fitted to the DisplayRectangle or uses Font Size 
+ </summary>
+</member><member name="P:PowerNET8.gLabel.TextWordWrap">
+	<summary>
+ Get or Set if the text wraps inside the DisplayRectangle 
+ </summary>
+</member><member name="P:PowerNET8.gLabel.AutoEllipsis">
+	<summary>
+  Get or Set if the text adds an Ellipsis (...) when the text exceeds the width
+ </summary>
+</member><member name="P:PowerNET8.gLabel.FillType">
+	<summary>
+ The eFillType Fill Type to apply to the gLabel
+ </summary>
+</member><member name="P:PowerNET8.gLabel.FillTypeLinear">
+	<summary>
+ The Linear Blend type
+ </summary>
+</member><member name="P:PowerNET8.gLabel.ForeColorBlend">
+	<summary>
+ The ColorBlend used to fill the gLabel
+ </summary>
+</member><member name="M:PowerNET8.gLabel.EnabledColor(System.Drawing.Color)">
+	<summary>
+ Convert color to gray if Disabled else return origional color
+ </summary>
+	<param name="ColorIn">Color to Check</param>
+</member><member name="M:PowerNET8.gLabel.EnableBlends(System.Drawing.Color[])">
+	<summary>
+ Convert colorblend to grayscale if Disabled else return origional colorblend
+ </summary>
+	<param name="ColorIn">Colorblend to Check</param>
+</member><member name="T:PowerNET8.gLabel">
+	<summary>
+ Label control with built-in effects like AutoFit, MouseOver, Shadow, Outer Glow, and Pulse Glow
+ </summary>
+	<remarks>
+ v1.0.6
+ 01-26-2011
+ Added Padding Support
+ Added TextWordWrap Property
+ Added AutoEllispis Support
+ v1.0.7
+ 03-03-2011
+ Added MouseOverForeColor Property
+ Added Checked Property
+ Added Checked Color Property
+ Added Checked Toggle State Method
+ v1.0.8
+ 01-03-2012
+ Added BlendItemsConverter
+ Cleaned up Default Values
+ Added CheckedType Property
+ </remarks>
+</member><member name="M:PowerNET8.myCommon.WriteToErrorLog(System.String,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="msg"></param>
+	<param name="stkTrace"></param>
+	<param name="title"></param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myVisualEffects.ColorFadeEffects.AddEffects(System.Object,System.String,System.Drawing.Color,System.Drawing.Color,System.Int32,System.Int32,PowerNET8.myVisualEffects.ColorFadeEffects.DoneFading)">
+	<summary>
+  Fades a color property from one color to another
+ </summary>
+	<param name="container">The object that contains the color property</param>
+	<param name="colorProperty">The name of the color property to change</param>
+	<param name="startColor">The color to start the fade with</param>
+	<param name="endColor">The color to end the fade with</param>
+	<param name="steps">The number of steps to take to fade from the start color to the end color</param>
+	<param name="delay">The delay in milliseconds between each step in the fade.</param>
+	<param name="callback">A function to be called when the fade completes</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myVisualEffects.ColorFadeEffects.AddEffects(System.Object,System.String,System.Drawing.Color,System.Drawing.Color,System.Int32,System.Drawing.Color,System.Int32,System.Int32,PowerNET8.myVisualEffects.ColorFadeEffects.DoneFading)">
+	<summary>
+  Fades a color property from one color to another, and then to yet another
+ </summary>
+	<param name="container">The object that contains the color property</param>
+	<param name="colorProperty">The name of the color property to change</param>
+	<param name="startColor">The color to start the fade with</param>
+	<param name="middleColor">The color to fade to first</param>
+	<param name="middleSteps">The number of steps to take in fading to the first color</param>
+	<param name="endcolor">The last color to fade to</param>
+	<param name="endSteps">The number of steps to take in fading to the last color</param>
+	<param name="delay">The delay between each step in the fade</param>
+	<param name="callback">A function that will be called after the fading has completed</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myVisualEffects.ColorFadeEffects.AddEffects(System.Object,System.String,System.Drawing.Color,System.Collections.Generic.IEnumerable{PowerNET8.myVisualEffects.ColorFadeEffects.ColorStep},System.Int32,PowerNET8.myVisualEffects.ColorFadeEffects.DoneFading)">
+	<summary>
+  Fades a color property to various colors
+ </summary>
+	<param name="container">The object that contains the color property</param>
+	<param name="colorProperty">The name of the color property to change</param>
+	<param name="startColor">The color to start the fade with</param>
+	<param name="colorSteps">A list of steps in fading the color - an enumerable list of colors and the steps to get to that color</param>
+	<param name="delay">The delay between each step in fading the color</param>
+	<param name="callBack">A method to call when the fading has completed</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myVisualEffects.ColorFadeEffects.BackgroundWorker_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+	<summary>
+  The work that the background worker does in fading the color
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myVisualEffects.ColorFadeEffects.BackgroundWorker_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+	<summary>
+  Calls to this method are marshalled back to the original thread, so here is where we actually change the color.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myVisualEffects.ColorFadeEffects.BackgroundWorker_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+	<summary>
+  This is raised when the background method completes.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myVisualEffects.ColorFadeEffects.GenerateHashCode(System.Object,System.String)">
+	<summary>
+  Generates a hashcode for an object and its color that are in the process of fading
+ </summary>
+	<param name="container">The object whose color property needs to be faded</param>
+	<param name="colorProperty">The string name of the property to fade</param>
+	<returns>A unique string representing the object and it's color property</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myVisualEffects.ColorFadeEffects.ColorFaderInformation">
+	<summary>
+  A simple class for storing information a backgroundWorker needs to perform the fading.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myVisualEffects.ColorFadeEffects.ColorStep">
+	<summary>
+  A simple class needed to represent a single step in the fading process
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myRenderer_MenuStrip.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.myRenderer_MenuStrip.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member><member name="M:PowerNET8.MyComboBoxExtension.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.MyComboBoxExtension.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member><member name="M:PowerNET8.myFile.Share.Location.getDesktopPath">
+	<summary>
+ It gets the desktop path of your computer
+ </summary>
+	<returns>Get the desktop path</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Location.getBasePath">
+	<summary>
+ It gets the location of your system program
+ </summary>
+	<returns>Get the base path of your system</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myFile.Share.Location">
+	<summary>
+ This class handles the location of the folders or files of your computer
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Folders.createFolder(System.String,System.String)">
+	<summary>
+ It creates a folder
+ </summary>
+	<param name="path">Set the path of your folder</param>
+	<param name="folderName">Set the name of your folder</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Folders.deleteFolder(System.String)">
+	<summary>
+ It deletes the folder permanently
+ </summary>
+	<param name="folderPath">Set the path of your foloder</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Folders.setHiddenFolder(System.String)">
+	<summary>
+ It sets the attributes of your folder 
+ </summary>
+	<param name="folderPath">Set the path of your folder</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myFile.Share.Folders">
+	<summary>
+ This class handles the file folder of your computer
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Files.checkFileExist(System.String)">
+	<summary>
+ It checks wehter the file exist or not exist
+ </summary>
+	<param name="filePath">Set the path of your file</param>
+	<returns>Returns true if file exist otherwise false if not</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Files.copyFile(System.String,System.String)">
+	<summary>
+ It copies the selected file from one place to another location
+ </summary>
+	<param name="fromPath">Set the path of the selected file to copy as reference</param>
+	<param name="toPath">Set the path of the selected file you want to copy</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Files.deleteFile(System.String)">
+	<summary>
+ It deletes the selected file in your computer
+ </summary>
+	<param name="filePath">Set the path of your selected file</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Files.moveFile(System.String,System.String)">
+	<summary>
+ It moves the selected file from one place to another
+ </summary>
+	<param name="fromPath">Set the path of the selected file as to be moved into other location</param>
+	<param name="toPath">Set the path to where the file to be placed</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myFile.Share.Files.setHiddenFile(System.String)">
+	<summary>
+ It sets the attribute of the selected file
+ </summary>
+	<param name="filePath">Set the path of your selected file</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myFile.Share.Files">
+	<summary>
+ This class handles the file of your computer
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Init.CrystalReportViewer.ReportStyle">
+	<summary>
+ You can select either of this type you want to reflect in your report
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Init.CrystalReportViewer.ReportSize">
+	<summary>
+ You can select either of this type you want to reflect in your report
+ </summary>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.myDocument.Init.CrystalReportViewer.title">
+	<summary>
+ It sets the title of your report
+ </summary>
+	<value>You can specify anything about your report title</value>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.myDocument.Init.CrystalReportViewer.printStyle">
+	<summary>
+ It sets print style of your report
+ </summary>
+	<value>You can specify what kinds of style you want to generate in your report</value>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.myDocument.Init.CrystalReportViewer.printSize">
+	<summary>
+ It sets print size of your report
+ </summary>
+	<value>You can specify what kind of paper size you want to generate in your report</value>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.clearDataSet">
+	<summary>
+ It clears the dataset and all of the tables added in it will be permanently removed
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.setDatasetName(System.String)">
+	<summary>
+ You can set your own dataset name for your reference in your report
+ </summary>
+	<param name="dataSetName">Write the dataset name of your report</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.clearParameters">
+	<summary>
+ It clears all the parameters you have previously added to pass into your report
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.addParameterField(System.String,System.Object)">
+	<summary>
+ You can add your own parameter here to pass into your report. Make sure you that have check the name of the parameter so that it will avoid errors during the generation of the report 
+ </summary>
+	<param name="name">It calls the parameter name object inside of your report</param>
+	<param name="value">Set the value of the parameter name field</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.clearTables">
+	<summary>
+ It clears all the previous tables you have added in the dataset
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.addTableField(System.Data.DataTable)">
+	<summary>
+ You can add your own tables here to pass into your report. Make sure that you have check the table name and his field set that match into your report so that it will display properly.
+ </summary>
+	<param name="myDataTable">Add your own datatable here</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.reportPath(System.String,System.Boolean)">
+	<summary>
+ You must set the path of your report in order to load the report
+ </summary>
+	<param name="location">Specify the current location of your report</param>
+	<param name="IsApplicationSourceIncluded">THIS IS OPTIONAL:[default=true] If you set as true then the system will automatically find your base path of your system otherwise you can specify manually other than your system suggest</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.setXML(System.String)">
+	<summary>
+ It writes down all your dataset created in your report for verification purpose only
+ </summary>
+	<param name="location">You can specify the current location to where you want to create an XML file for your report</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.setXMLSchema(System.String)">
+	<summary>
+ It writes down all your dataset schema in your report for verification purpose only
+ </summary>
+	<param name="location">You can specify the current location to where you want to create an XML Schema file for your report</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.readXML(System.String)">
+	<summary>
+ It reads an XML file that will be used as your reference in your report
+ </summary>
+	<param name="location">Set location to find the existing XML file</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.readXMLSchema(System.String)">
+	<summary>
+ It reads an XML Schema file that will be used as your reference in your report
+ </summary>
+	<param name="location">Set location to find the existing XML Schema file</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.setLogOnSettings(System.String,System.String,System.String,System.String)">
+	<summary>
+ You can manually set your log in settings in your report
+ </summary>
+	<param name="serverName">Set your server name</param>
+	<param name="userID">Set your user ID</param>
+	<param name="database">Set your database name</param>
+	<param name="password">Set your password</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.CrystalReportViewer.launchReport">
+	<summary>
+ Execute the final action command once you have successfully set all the datasets,tables,parameter fields, report style and report path
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Init.CrystalReportViewer">
+	<summary>
+ You can invoke the crystal report viewer functions. Make sure that you have successfully installed the crystal report in your computer and have the right crystal decision libraries to run this class otherwise it will not work correctly. IMPORTANT NOTE: It requires this important DLL as follows: <list>CrystalDecisions.CrystalReports.Engine</list> || CrystalDecisions.Enterprise.Framework || CrystalDecisions.Enterprise.InfoStore || CrystalDecisions.ReportSource || CrystalDecisions.Shared and CrystalDecisions.Windows.Forms 
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Init.MicrosoftReportViewer.ParameterField">
+	<summary>
+ This structure lets the one object carries two sub variables such as Name and Value of the parameter field
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Init.MicrosoftReportViewer.EmbeddedType">
+	<summary>
+ Report Path is used for outside file to be called in your system. ReportEmbeddedResource is used if your report is inside of your solution project
+ </summary>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.myDocument.Init.MicrosoftReportViewer.title">
+	<summary>
+ It sets the title of your report
+ </summary>
+	<value>You can specify anything about your report title</value>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.myDocument.Init.MicrosoftReportViewer.reportPathType">
+	<summary>
+ You can specify what type of path that will take your report to be displayed. You can choose the location either in your project solution or outside of your project solution
+ </summary>
+	<value></value>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.clearDataSet">
+	<summary>
+ It clears the dataset and all of the tables added in it will be permanently removed
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.setDatasetName(System.String)">
+	<summary>
+ You can set your own dataset name for your reference in your report
+ </summary>
+	<param name="dataSetName">Write the dataset name of your report</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.clearParameters">
+	<summary>
+ It clears all the parameters you have previously added to pass into your report
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.addParameterField(System.String,System.Object)">
+	<summary>
+ You can add your own parameter here to pass into your report. Make sure you that have check the name of the parameter so that it will avoid errors during the generation of the report 
+ </summary>
+	<param name="name">It calls the parameter name object inside of your report</param>
+	<param name="value">Set the value of the parameter name field</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.clearTables">
+	<summary>
+ It clears all the previous tables you have added in the dataset
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.addTableField(System.Data.DataTable)">
+	<summary>
+ You can add your own tables here to pass into your report. Make sure that you have check the table name and his field set that match into your report so that it will display properly.
+ </summary>
+	<param name="myDataTable">Add your own datatable here</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.reportPath(System.String,System.Boolean)">
+	<summary>
+ You must set the path of your report in order to load the report
+ </summary>
+	<param name="location">Specify the current location of your report</param>
+	<param name="IsApplicationSourceIncluded">THIS IS OPTIONAL:[default=true] If you set as true then the system will automatically find your base path of your system otherwise you can specify manually other than your system suggest</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.setXML(System.String)">
+	<summary>
+ It writes down all your dataset created in your report for verification purpose only
+ </summary>
+	<param name="location">You can specify the current location to where you want to create an XML file for your report</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.setXMLSchema(System.String)">
+	<summary>
+ It writes down all your dataset schema in your report for verification purpose only
+ </summary>
+	<param name="location">You can specify the current location to where you want to create an XML Schema file for your report</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.readXML(System.String)">
+	<summary>
+ It reads an XML file that will be used as your reference in your report
+ </summary>
+	<param name="location">Set location to find the existing XML file</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.readXMLSchema(System.String)">
+	<summary>
+ It reads an XML Schema file that will be used as your reference in your report
+ </summary>
+	<param name="location">Set location to find the existing XML Schema file</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Init.MicrosoftReportViewer.launchReport">
+	<summary>
+ Execute the final action command once you have successfully set all the datasets,tables,parameter fields, report style and report path
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Init.MicrosoftReportViewer">
+	<summary>
+ You can allow to invoke the Microsoft Report Viewer functions. Make you have successfuly designed a report and have the right .dll libraries to use this function. IMPORTANT NOTE: It requires this kind of dll as follows: Microsoft.ReportViewer.Common and Microsoft.ReportViewer.WinForms
+ 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.DatabaseConfig.readDatabaseConfig(System.String)">
+	<summary>
+ It gets a local XML file within your system that helps to load your previous MSQL configuration settings
+ </summary>
+	<param name="basePath">Specify the current location of your XML file</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.DatabaseConfig.writeDatabaseConfig(System.String)">
+	<summary>
+ It writes and creates an XML File to save your current MYSQL configuration settings
+ </summary>
+	<param name="basePath">Specify the current location of your XML file</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Share.XMLDesigner.DatabaseConfig">
+	<summary>
+ This class is for writing and reading an XML file for the purpose of reconnecting the mySQL server everytime the system will launch by the user. You just don't need to hard code the SQL configuration. PURPOSE: To avoid static variables when the settings of the SQL has been changed and to minimize inconsistency of the program code
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.PathConfig.writePath(System.String)">
+	<summary>
+ It writes and creates an XML File to store your current base path location of your system
+ </summary>
+	<param name="basePath">Specify the current location of your XML file</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.PathConfig.readPath">
+	<summary>
+ It reads an XML File to retrieve the previouse base path location of your system
+ </summary>
+	<returns>Specify the current location of your XML file</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Share.XMLDesigner.PathConfig">
+	<summary>
+ This class is for writing and reading an XML File for the purpose of restoring the previous program locatin everytime the user launced the system
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.License.writeLicense(System.String)">
+	<summary>
+ The system will auto generate a license agreement for the legalities of the project being made by the .NET programmers
+ </summary>
+	<param name="runCode">It needs an authentication by the developer to use this shared function</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.License.writeCredits(System.String)">
+	<summary>
+ The system will auto generate a credits here: The one who originally develop the POWER .NET 8 development toolkit package for .NET Programmers
+ </summary>
+	<param name="runCode">It needs an authentication by the developer to use this shared function</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.License.writeSystemLogs(System.String)">
+	<summary>
+ The system will auto generate the current logs of what other features of hte POWER .NET 8 haved been added in the package
+ </summary>
+	<param name="runCode">It needs an authentication by the developer to use this shared function</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Share.XMLDesigner.License">
+	<summary>
+ This clas is not intented to use from other programmer because this is for privacy of the developer of this class. This is for private purpose only to auto generate the updates, credits and other licences
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.AssemblyInfoConfig.writeAssemblyInfo(System.Reflection.Assembly)">
+	<summary>
+ It writes and creates an XML file for your current assembly information of your project
+ </summary>
+	<param name="asm">Set the current Assembly Information Project</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myDocument.Share.XMLDesigner.AssemblyInfoConfig.readAssemblyInfo">
+	<summary>
+ It reads an XML file to retrieve the previous assembly information everytime the user will launch the system
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Share.XMLDesigner.AssemblyInfoConfig">
+	<summary>
+ This class is for writing and reading an XML file for the purpose of restoring the previous assembly information
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myDocument.Share.XMLDesigner.ThemesConfig">
+	<summary>
+ This class is for writing and reading an XML file for the purpose of retriving the previouse theme color in every users that have entered into the system
+ </summary>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:PowerNET8.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:PowerNET8.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:PowerNET8.myEvents.Share.TitleBar.Drag.addEvent(System.Object,System.Windows.Forms.Form@,System.Windows.Forms.PictureBox@,System.String)">
+	<summary>
+ This class will help simulate the drag and drop of the form
+ </summary>
+	<param name="obj">Set the objects which is required to add another event</param>
+	<param name="form">Set the form as reference for this class</param>
+	<param name="maximize">Set the maximize button</param>
+	<param name="runCode">It needs an authentication of the one who made this function</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myEvents.Share.TitleBar.Drag">
+	<summary>
+ This class is not intented to used for other purposes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myEvents.Share.TitleBar.Resize.addEvent(System.Windows.Forms.Panel,System.Windows.Forms.Form,System.String)">
+	<summary>
+ It simulate the resize form of the system
+ </summary>
+	<param name="panel">Set the Panel Object to add other event</param>
+	<param name="form">Set the form as reference for this class</param>
+	<param name="runCode">It needs an authentication of the one who made this function</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myEvents.Share.TitleBar.Resize">
+	<summary>
+ This class is not intented to used for other purposes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myEvents.Share.TitleBar.ClickTitleButton.addEvent(System.Windows.Forms.Form@,System.Windows.Forms.PictureBox@,System.Windows.Forms.PictureBox@,System.Windows.Forms.PictureBox@,System.Windows.Forms.PictureBox@,System.String@,System.String)">
+	<summary>
+ It simulate the click event of the title bar such as minimize, maximize, and close button
+ </summary>
+	<param name="form">Set the form as reference of this class</param>
+	<param name="icon">Set the icon of the title bar</param>
+	<param name="minimize">Set the minimize button</param>
+	<param name="maximize">Set the Maximize button</param>
+	<param name="close">Set the Close button</param>
+	<param name="runCode">It needs an authentication the one who made this function</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myEvents.Share.TitleBar.ClickTitleButton">
+	<summary>
+ This class is not intented to used for other purposes
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myEvents.Share.TitleBar.ActiveWindow.addEvent(System.Windows.Forms.Timer@,System.Windows.Forms.Form@,System.String,System.String)">
+	<summary>
+ It simulate the active or inactive windows
+ </summary>
+	<param name="timer">Set the timer to process the event</param>
+	<param name="form">Set the form as reference to this class</param>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myEvents.Share.TitleBar.ActiveWindow">
+	<summary>
+ This class is not intented to used for other purposes
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myEvents.Share.Text">
+	<summary>
+ This class is not used for other purposes.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myNumber.Share.Converter.NumberToWords(System.Object,System.String)">
+	<summary>
+ It converts from number into words
+ </summary>
+	<param name="values">Set the number to convert</param>
+	<param name="Extension">Set the brief extension name of the number</param>
+	<returns>Get the converted words</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myNumber.Share.Converter">
+	<summary>
+ This class will convert the number
+ </summary>
+	<remarks></remarks>
+</member><member name="F:PowerNET8.My7GlassButton.Components">
+	<summary>
+ Required by the Form Designer Variable
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.#ctor">
+	<summary>
+ Create New Object of MBGlassButton and Initialize it.
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.InitializeComponent">
+	<summary>
+ Initialize the MBGlassButton Components
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.Dispose(System.Boolean)">
+	<summary>
+ MBExplorer Overrides Dispose to CleanUp component list
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.OnCreateControl">
+	<summary>
+ Create Base for MBGlassButton
+ </summary>
+</member><member name="T:PowerNET8.My7GlassButton.MB_SplitLocation">
+	<summary>
+ Enum to Set Split Location for MBGlasButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.SplitLocation">
+	<summary>
+ Get or Set the Location to Split Button into Two Parts
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.ImageSize">
+	<summary>
+ Get or Set the Image Size for MBGlassButton
+ </summary>
+</member><member name="T:PowerNET8.My7GlassButton.MB_ShowBase">
+	<summary>
+ Enum for Base Visibility
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.ShowBase">
+	<summary>
+ Get or Set Base Visibility for MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.Radius">
+	<summary>
+ Get or Set Corner Radius for MBGlassButton
+ </summary>
+</member><member name="T:PowerNET8.My7GlassButton.MB_GroupPos">
+	<summary>
+ Enum for Group Position of MBGlassButton
+ </summary>
+</member><member name="F:PowerNET8.My7GlassButton._grouppos">
+	<summary>
+ Get or Set Group Position for MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.Arrow">
+	<summary>
+ Get or Set Arrow visibility of MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.SplitButton">
+	<summary>
+ Get or Set Split Option for MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.SplitDistance">
+	<summary>
+ Get or Set Split Distance for MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.KeepPressed">
+	<summary>
+ Get or Set Button State of MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.IsPressed">
+	<summary>
+ Get or Set State of MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.MenuListPosition">
+	<summary>
+ Get ot Set DropDown Menu Position of MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.BaseColor">
+	<summary>
+ Get or Set Base Color for MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.OnColor">
+	<summary>
+ Get ot Set OnColor of MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.PressColor">
+	<summary>
+ Get or Set Color when MBGlassButton is Pressed.
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.BaseStrokeColor">
+	<summary>
+ Get or Set Base Stroke for MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.OnStrokeColor">
+	<summary>
+ Get or Set OnStroke Color for MBGlassButton
+ </summary>
+</member><member name="P:PowerNET8.My7GlassButton.PressStrokeColor">
+	<summary>
+ Get or Set PressStroke Color of MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.GetColorIncreased(System.Drawing.Color,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Return Color with Increase Value
+ </summary>
+	<param name="color">The Value As System.Drawing.Color</param>
+	<param name="h">Hue Value As Integer</param>
+	<param name="s">Saturation Value As Integer</param>
+	<param name="b">Brightness Value As Integer</param>
+	<returns>Returns New Color</returns>
+</member><member name="M:PowerNET8.My7GlassButton.GetColor(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Returns New Color From ARGB Values
+ </summary>
+	<param name="A">Alpha value as Integer</param>
+	<param name="R">Red value as integer</param>
+	<param name="G">Green value as Integer</param>
+	<param name="B">Blue value as Integer</param>
+	<returns>New Color</returns>
+</member><member name="M:PowerNET8.My7GlassButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+	<summary>
+ Handles MBGlassButton Paint
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.OnResize(System.EventArgs)">
+	<summary>
+ Handles MBGlassButton Resize
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.MBGlassButton_ContextMenuStripChanged(System.Object,System.EventArgs)">
+	<summary>
+ Hnadles ContaxtMenuStrip Rendering
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.FillGradients(System.Drawing.Graphics,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Handles Glowing of MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.DrawText(System.Drawing.Graphics)">
+	<summary>
+ Draw Text on MBGlassButton
+ </summary>
+	<param name="g">G as Graphics</param>
+</member><member name="M:PowerNET8.My7GlassButton.TextAlignment(System.Drawing.ContentAlignment)">
+	<summary>
+ Text Alignment of MBGlassButton
+ </summary>
+	<param name="textalign">TextAlignment Value</param>
+	<returns>String Format</returns>
+</member><member name="M:PowerNET8.My7GlassButton.DrawArc(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw arc for MBGlassButton
+ </summary>
+	<param name="re">R As Rectangle</param>
+	<param name="pa">Path As Graphics Path</param>
+</member><member name="M:PowerNET8.My7GlassButton.DrawShadow(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw Shadow for MBGlassButton
+ </summary>
+	<param name="re">R As Rectangle</param>
+	<param name="pa">Path As Graphics Path</param>
+</member><member name="M:PowerNET8.My7GlassButton.DrawArrow(System.Drawing.Graphics)">
+	<summary>
+ Draw Arrow on MBGlassButton
+ </summary>
+	<param name="gr">graphics As Graphics</param>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.My7GlassButton.GlowingingSpeed">
+	<summary>
+ Get or Set Fading Speeed of MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.OnMouseEnter(System.EventArgs)">
+	<summary>
+ Handles Mouse Enter for MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.OnMouseLeave(System.EventArgs)">
+	<summary>
+ Handles Mouse Leave for MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.UpdateMouseLeave">
+	<summary>
+ Handles Mouse Leave for MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Down for MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Up for MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.My7GlassButton.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ Handles Mouse Move for MBGlassButton
+ </summary>
+</member><member name="T:PowerNET8.My7GlassButton">
+	<summary>
+ MBGlassButton Class © 2011 By Manoj Kishor Bhoir
+ </summary>
+	<remarks>Version 1.0.1096.2286</remarks>
+</member><member name="M:PowerNET8.MBColor.#ctor(System.Drawing.Color)">
+	<summary>
+ Constructor for MBColor
+ </summary>
+	<param name="color">Color Value</param>
+</member><member name="M:PowerNET8.MBColor.#ctor(System.UInt32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Constructor for MBColor
+ </summary>
+	<param name="a">Aplph value</param>
+	<param name="r">Red value</param>
+	<param name="g">Green value</param>
+	<param name="b">Blue value</param>
+</member><member name="T:PowerNET8.MBColor">
+	<summary>
+ MBColor Class for MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.MBMenuRendere.OnRenderMenuItemBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+	<summary>
+ Handles MenuItemBackground for MBGlassButton ContaxtMenuStrip
+ </summary>
+</member><member name="M:PowerNET8.MBMenuRendere.OnRenderItemImage(System.Windows.Forms.ToolStripItemImageRenderEventArgs)">
+	<summary>
+ Handles RenderItemImage for MBGlassButton ContaxtMenuStrip
+ </summary>
+</member><member name="M:PowerNET8.MBMenuRendere.DrawArc(System.Drawing.Rectangle,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Draw Arc for ContaxtMenuStripRenderer
+ </summary>
+</member><member name="M:PowerNET8.MBMenuRendere.GetRendererColor(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Returns New Color for MBGlassButton ContextMenuStrip Renderer
+ </summary>
+	<param name="R">Red value as Integer</param>
+	<param name="G">Green value as Integer</param>
+	<param name="B">Blue value as Integer</param>
+	<returns>New Color</returns>
+</member><member name="T:PowerNET8.MBMenuRendere">
+	<summary>
+ MBMenuRenderer for MBGlassButton ContaxtMenuStrip
+ </summary>
+</member><member name="M:PowerNET8.myImage.Share.Controls.Buttons.Icon.getJqueryImage(PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileImageSelect,PowerNET8.myIcons.Share.Jquery.JqueryIconColor)">
+	<summary>
+ It gets the jquery image style icon. This is a source image file
+ </summary>
+	<param name="type">Specify the type of jquery event</param>
+	<param name="JqueryColor">Specify the jquery color</param>
+	<returns>Geth the cropped image to be used as icon in the button</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myImage.Share.Controls.Buttons.Icon.resizeJqueryMobileImageButton(PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileIconTypes,System.Int32,System.Int32,PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileIconColor)">
+	<summary>
+ It helps to resize the respective jquery mobile icon based on the specified size from the properties of the button
+ </summary>
+	<param name="JqueryMobileIcon">Specify the jquery mobile icon</param>
+	<param name="width">Set the width of the icon</param>
+	<param name="height">Set the height of the icon</param>
+	<param name="Color">Set the jquery mobile icon color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myImage.Share.Controls.Buttons.Icon.resizeJqueryImageButton(PowerNET8.myIcons.Share.Jquery.JqueryIconTypes,System.Int32,System.Int32,PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileImageSelect,PowerNET8.myIcons.Share.Jquery.JqueryIconColor)">
+	<summary>
+ It helps to resize the respective jquery image based on the specified size from the properties of the button
+ </summary>
+	<param name="JqueryIcon">Specify the jquery icon style</param>
+	<param name="width">Set the width of the icon</param>
+	<param name="height">Set the height of the icon</param>
+	<param name="KindImage">Specify the image source</param>
+	<param name="jqueryColor">Speciry the jquery icon color</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myImage.Share.Controls.Buttons.Icon.resizeWindows8ImageButton(PowerNET8.myIcons.Share.Windows8.Windows8IconTypes,System.Int32,System.Int32,System.Drawing.Color,PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileImageSelect,System.String)">
+	<summary>
+ It helps to resize the respective windows 8 based on the specified size from the properties of the button
+ </summary>
+	<param name="windows8Icon">Specify the windows 8 icon</param>
+	<param name="width">Set the width of the icon</param>
+	<param name="height">Set the height of the icon</param>
+	<param name="color">Set the windows 8 color</param>
+	<param name="KindImage">Specify the MouseMove or MouseDown event</param>
+	<param name="type">Set the during the MouseUp and Mousedown event</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myImage.Share.Controls.Buttons.Icon">
+	<summary>
+ It helps to manage the icon within the button images
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myImage.Share.Controls.Buttons">
+	<summary>
+ This class is used to control the image instance for the buttons
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myImage.Share.Converter.BitmapToIcon16(System.Drawing.Bitmap)">
+	<summary>
+ It converts the bitmap into icon16
+ </summary>
+	<param name="bitmap">Set the image to convert</param>
+	<returns>Get the icon16</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myImage.Share.Converter.IconToBitmap(System.Drawing.Icon)">
+	<summary>
+ It converts the icon16 into bitmap
+ </summary>
+	<param name="icons">Set the icon16 to convert</param>
+	<returns>Get the bitmap</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myImage.Share.Converter">
+	<summary>
+ This class helps to convert the image type into other type
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myImage.Share.Tools.rotateImage(System.Drawing.Bitmap,System.Drawing.RotateFlipType)">
+	<summary>
+ It rotates the image in any degree you want to change
+ </summary>
+	<param name="bitmap">Set the bitmap as reference to this class</param>
+	<param name="rotationStyle">Specify what style to apply for the rotation of the image</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myImage.Share.Tools.resizeImage(System.Drawing.Bitmap@,System.Int32,System.Int32)">
+	<summary>
+ It handles to resize the image size
+ </summary>
+	<param name="bmp">Set the bitmap as reference to this class</param>
+	<param name="width">Set the width of the image</param>
+	<param name="height">Set the height of the image</param>
+	<returns>Get the resized image</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myImage.Share.Tools.resizeImage_Windows8(System.Drawing.Bitmap@,System.Int32,System.Int32,System.Drawing.Color,System.String)">
+	<summary>
+ It handles to resize the image size. FOR WINDOWS 8 only
+ </summary>
+	<param name="bmp">Set the bitmap as reference to this class</param>
+	<param name="width">Set the width of the image</param>
+	<param name="height">Set the height of the image</param>
+	<returns>Get the resized image</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myImage.Share.Tools">
+	<summary>
+ This class handles the other tools to provide more features in handling an image attributes
+ </summary>
+	<remarks></remarks>
+</member><member name="P:PowerNET8.My8Button.ImageSize">
+	<summary>
+ Get or Set the Image Size for MBGlassButton
+ </summary>
+</member><member name="M:PowerNET8.myDialog.messageBoxes.show(System.String,System.String,System.Windows.Forms.MessageBoxButtons,System.Windows.Forms.MessageBoxIcon,System.Int32,System.Int32)">
+	<summary>
+ It overrides the message box of the system to call the windows 8 platform.
+ </summary>
+	<param name="content">Set the message content</param>
+	<param name="title">Set the title of the message</param>
+	<param name="style">Set the dialog style</param>
+	<param name="icons">Set the icon type</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.General.IconLibraryTypes">
+	<summary>
+ List of Icons
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.General">
+	<summary>
+ This class is used to get the listed type of icons in an object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileImageSelect">
+	<summary>
+ Type of icon to be displayed during MouseLeave and MouseMove event
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileIconTypes">
+	<summary>
+ List of icons which is found in the Jquery Mobile
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileIconColor">
+	<summary>
+ List of icons that reflects the color
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myIcons.Share.JqueryMobile.GetJqueryMobileIcon(PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileIconTypes,System.Int32,System.Int32,PowerNET8.myIcons.Share.JqueryMobile.JqueryMobileIconColor)">
+	<summary>
+ It invokes the function to get the jquery mobile icon based on the specified properties loaded
+ </summary>
+	<param name="type">Set the type of jquery mobile icon</param>
+	<param name="img_width">Specifies the width of the icon</param>
+	<param name="img_height">Specifies the height of the icon</param>
+	<param name="color">Specifies the jquery mobile icon color</param>
+	<returns>Get the selected jquery mobile icon</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.JqueryMobile">
+	<summary>
+ It used to load all icons in the jquery mobile for the object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.Jquery.JqueryIconColor">
+	<summary>
+ List of Jquery icon colors
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.Jquery.JqueryIconTypes">
+	<summary>
+ List of Jquery Icons
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myIcons.Share.Jquery.GetJqueryIcons(PowerNET8.myIcons.Share.Jquery.JqueryIconTypes,System.Drawing.Bitmap@,System.Int32,System.Int32)">
+	<summary>
+ It invokes the function to get the jquery icon based on the specified properties loaded
+ </summary>
+	<param name="JIconType">Set the type of Jquery Icon</param>
+	<param name="bmp">Set the jquery icon image to be used as reference for cropping purposes</param>
+	<param name="img_width">Set the width of the icon</param>
+	<param name="img_height">Set the height of the icon</param>
+	<returns>Get the selected Jquery Icon</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.Jquery">
+	<summary>
+ Ir used to load all icons in the Jquery for the object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.Windows8.Windows8IconTypes">
+	<summary>
+ List of Windows 8 icons
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myIcons.Share.Windows8.GetWindows8Icons(PowerNET8.myIcons.Share.Windows8.Windows8IconTypes,System.Drawing.Bitmap@,System.Int32,System.Int32,System.Drawing.Color,System.String)">
+	<summary>
+ It invokes the function to get the windows 8 icon based on the specified properties loaded
+ </summary>
+	<param name="windows8IconTypes">Set the type of windows 8 icon</param>
+	<param name="bmp">Set the windows 8 icon image to be used as reference for cropping purposes</param>
+	<param name="img_width">Set the width of the icon</param>
+	<param name="img_height">Set the height of the icon</param>
+	<param name="color">Set the color when there is MouseDown Event occurred for the purpose of adopting the backcolor of the object that applies into the windows 8 icon</param>
+	<param name="type">Specify the type either during MouseUp or MouseDown Event</param>
+	<returns>Get the selected windows 8 icon</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.Windows8">
+	<summary>
+ It used to all icons of the windows 8 for the object
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.TitleBar.Type">
+	<summary>
+ This type is used to classify the title bar image which is found at the right top corner of the form
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myIcons.Share.TitleBar.getIcon(PowerNET8.myIcons.Share.TitleBar.Type,System.String,System.String)">
+	<summary>
+ This function is not intended to be used as reference to other purpose.
+ </summary>
+	<param name="iconType">Specify the classification of the icon</param>
+	<param name="eventType">Specify the action either MouseMove or MouseUp event</param>
+	<returns>Get the selected title bar icon for the use of the form</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.TitleBar">
+	<summary>
+ It used to load all icons for the title bar only
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.DialogBox.Type">
+	<summary>
+ This type is used to classify the dialog box icon
+ </summary>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myIcons.Share.DialogBox">
+	<summary>
+ It used to load all icons for the dialog box only
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myRenderer_ToolStrip.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.myRenderer_ToolStrip.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member><member name="M:PowerNET8.My7PanelExtension.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.My7PanelExtension.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getInstanceAssembly(System.String,System.String)">
+	<summary>
+ This method is just an example of how to get the complete information of the assembly project and current domain.
+ </summary>
+	<param name="asm">A right format for assembly information</param>
+	<param name="appDomain">A right format for Current Domain</param>
+	<returns>It will return nothing, anyway just for reference code only and not to be used.</returns>
+	<remarks>A reference.</remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.setAssembly(System.Reflection.Assembly@)">
+	<summary>
+ It sets an assembly to be used as reference within the class
+ </summary>
+	<param name="asms">Specify the project <c>assembly</c> information</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getTitle">
+	<summary>
+ It gets the title of the project
+ </summary>
+	<returns>Get the title of the assembly project</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getDescription">
+	<summary>
+ It gets the description of the project
+ </summary>
+	<returns>get the description of the assembly project</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getCompany">
+	<summary>
+ It gets the company name of the project
+ </summary>
+	<returns>Get the company name of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getProduct">
+	<summary>
+ It gets the product name of the project
+ </summary>
+	<returns>Get the product name of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getTrademark">
+	<summary>
+ It gets the Trademark of the project
+ </summary>
+	<returns>Get the trademark of the assembly project</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getCopyright">
+	<summary>
+ It gets the copyright of the project
+ </summary>
+	<returns>Get the copyright of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getBuildDate">
+	<summary>
+ It gets the buiid date of the project
+ </summary>
+	<returns>Get the build date of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getVersionProduct">
+	<summary>
+ It gets the version product of the project
+ </summary>
+	<returns>Get the version product of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getConfigurationAttribute">
+	<summary>
+ It gets the configuration attribute of the project
+ </summary>
+	<returns>Get the configuration attribute of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getCulture">
+	<summary>
+ It gets the culture of the project
+ </summary>
+	<returns>Get the culture of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getAssemblyVersion">
+	<summary>
+ It gets the assembly version of the project
+ </summary>
+	<returns>Get the assembly version of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getDefaultAlias">
+	<summary>
+ It gets the default alias of the project
+ </summary>
+	<returns>Get the default alias of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getDelaySign">
+	<summary>
+ It gets the delay sign of the project
+ </summary>
+	<returns>Get the delay sign of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getFileVersion">
+	<summary>
+ It gets the file verion of the project
+ </summary>
+	<returns>Get the file version of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getAssemblyFlags">
+	<summary>
+ It gets the assembly flags of the project
+ </summary>
+	<returns>Get the assembly flags of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getInformationalVersion">
+	<summary>
+ It gets the information version of the project
+ </summary>
+	<returns>Get the information version of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getKeyFile">
+	<summary>
+ It gets the keyfile of the project
+ </summary>
+	<returns>Get the keyfile of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.getKeyName">
+	<summary>
+ It gets the keyname of the project
+ </summary>
+	<returns>Get the keyfile of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.AssemblyAttribsList(System.Reflection.Assembly)">
+	<summary>
+ It gets the assembly attribute list of the project
+ </summary>
+	<param name="Assembly">Set Assembly Information Project</param>
+	<returns>Get the specialized name value collection</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.AssemblyBuildDate(System.Reflection.Assembly,System.Boolean)">
+	<summary>
+ It gets the assembly buildate of the project
+ </summary>
+	<param name="Assembly">Set Assembly Information Project</param>
+	<param name="ForceFileDate">It enables to force the file date of the assembly</param>
+	<returns>Get the assembly information build date</returns>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Init.AssemblyInformation.AssemblyLastWriteTime(System.Reflection.Assembly)">
+	<summary>
+ It gets the last write time of the assembly information project
+ </summary>
+	<param name="Assembly">Set the assembly information project</param>
+	<returns>Get the last write time of the assembly information</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myApplication.Init.AssemblyInformation">
+	<summary>
+ You can set assembly information project within this class and this will not work if you don't make it as variable name
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Share.Registry.SaveRegistrySetting(System.String,System.String,System.String)">
+	<summary>
+ It sets and save the registry information
+ </summary>
+	<param name="strSection">Specify the section of the registry settings</param>
+	<param name="strKey">Specify the key of the registry settings</param>
+	<param name="strVal">Write the value of the registry that you have specified</param>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myApplication.Share.Registry.GetRegistrySetting(System.String,System.String)">
+	<summary>
+ It gets the previous data of the registry information
+ </summary>
+	<param name="strSection">Specify the section of the registry settings</param>
+	<param name="strKey">Specify the key of the registry settings</param>
+	<returns>Get the value of the previous registry settings that have been saved</returns>
+	<remarks></remarks>
+</member><member name="T:PowerNET8.myApplication.Share.Registry">
+	<summary>
+ This class is used for saving or loading registry information of the system. It is also good alternative other than saving into database or local file.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PowerNET8.myRenderer_StatusStrip.GradientColor.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ Constructor for GradientItemColor Class
+ </summary>
+</member><member name="T:PowerNET8.myRenderer_StatusStrip.GradientColor">
+	<summary>
+ GradientColor Class which Provides Gradient Colors
+ </summary>
+</member>
+</members>
+</doc>

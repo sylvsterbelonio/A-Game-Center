@@ -1,0 +1,33 @@
+D:\Game List Browser\Game List Browser\bin\x86\Release\Game List Browser.exe
+D:\Game List Browser\Game List Browser\bin\x86\Release\Power .NET 8.dll
+D:\Game List Browser\Game List Browser\bin\x86\Release\Microsoft.Office.Interop.Word.dll
+D:\Game List Browser\Game List Browser\bin\x86\Release\office.dll
+D:\Game List Browser\Game List Browser\bin\x86\Release\Microsoft.Vbe.Interop.dll
+D:\Game List Browser\Game List Browser\bin\x86\Release\MySql.Data.dll
+D:\Game List Browser\Game List Browser\bin\x86\Release\Power .NET 8.pdb
+D:\Game List Browser\Game List Browser\bin\x86\Release\Power .NET 8.xml
+D:\Game List Browser\Game List Browser\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmDashBoard.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmGameType.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.Resources.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game List Browser.vbproj.GenerateResource.Cache
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game List Browser.exe
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmLock.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmLogIn.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmProfileInformation.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmRankUpdate.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmSignUp.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmHomePage.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmEmulators.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmEmulatorsFinder.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmOtherGameLocator.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmShadow.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmGameTypeFinder.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmGameDataInfo.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmGameDataInfoFinder.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.lblDesigners.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmMessageBox.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmGiftBox.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmSlotMachines.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game_List_Browser.frmTPConversion.resources
+D:\Game List Browser\Game List Browser\obj\x86\Release\Game List Browser.exe.licenses

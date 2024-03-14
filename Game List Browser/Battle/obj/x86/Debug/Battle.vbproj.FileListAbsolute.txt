@@ -1,0 +1,19 @@
+D:\Game List Browser\Battle\bin\x86\Debug\Battle.exe
+D:\Game List Browser\Battle\bin\x86\Debug\Battle.pdb
+D:\Game List Browser\Battle\bin\x86\Debug\Battle.xml
+D:\Game List Browser\Battle\bin\x86\Debug\Power .NET 8.dll
+D:\Game List Browser\Battle\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Game List Browser\Battle\obj\x86\Debug\Battle.frmMain.resources
+D:\Game List Browser\Battle\obj\x86\Debug\Battle.Resources.resources
+D:\Game List Browser\Battle\obj\x86\Debug\Battle.vbproj.GenerateResource.Cache
+D:\Game List Browser\Battle\obj\x86\Debug\Battle.exe.licenses
+D:\Game List Browser\Battle\obj\x86\Debug\Battle.exe
+D:\Game List Browser\Battle\obj\x86\Debug\Battle.xml
+D:\Game List Browser\Battle\obj\x86\Debug\Battle.pdb
+D:\Game List Browser\Battle\obj\x86\Debug\Battle.frmLogIn.resources
+D:\Game List Browser\Battle\bin\x86\Debug\MySql.Data.dll
+D:\Game List Browser\Battle\bin\x86\Debug\Power .NET 8.pdb
+D:\Game List Browser\Battle\bin\x86\Debug\Power .NET 8.xml
+D:\Game List Browser\Battle\bin\x86\Debug\Microsoft.Office.Interop.Word.dll
+D:\Game List Browser\Battle\bin\x86\Debug\Microsoft.Vbe.Interop.dll
+D:\Game List Browser\Battle\bin\x86\Debug\office.dll

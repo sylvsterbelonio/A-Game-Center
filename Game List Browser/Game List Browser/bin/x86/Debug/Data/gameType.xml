@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameType>
+  <List>
+    <id>1</id>
+    <gameType>ASDAD</gameType>
+    <yearPublished>234</yearPublished>
+    <coverLocation></coverLocation>
+  </List>
+  <List>
+    <id>2</id>
+    <gameType>34</gameType>
+    <yearPublished>5345</yearPublished>
+    <coverLocation></coverLocation>
+  </List>
+  <List>
+    <id>6</id>
+    <gameType>5555555</gameType>
+    <yearPublished>5555</yearPublished>
+    <coverLocation></coverLocation>
+  </List>
+</GameType>

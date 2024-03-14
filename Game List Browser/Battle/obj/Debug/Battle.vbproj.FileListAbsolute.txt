@@ -1,0 +1,17 @@
+D:\Game List Browser\Battle\bin\Debug\Battle.exe
+D:\Game List Browser\Battle\bin\Debug\Battle.pdb
+D:\Game List Browser\Battle\bin\Debug\Battle.xml
+D:\Game List Browser\Battle\obj\Debug\ResolveAssemblyReference.cache
+D:\Game List Browser\Battle\obj\Debug\Battle.Resources.resources
+D:\Game List Browser\Battle\obj\Debug\Battle.vbproj.GenerateResource.Cache
+D:\Game List Browser\Battle\obj\Debug\Battle.exe
+D:\Game List Browser\Battle\obj\Debug\Battle.xml
+D:\Game List Browser\Battle\obj\Debug\Battle.pdb
+D:\Game List Browser\Battle\bin\Debug\Power .NET 8.dll
+D:\Game List Browser\Battle\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\Game List Browser\Battle\bin\Debug\office.dll
+D:\Game List Browser\Battle\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Game List Browser\Battle\bin\Debug\MySql.Data.dll
+D:\Game List Browser\Battle\bin\Debug\Power .NET 8.pdb
+D:\Game List Browser\Battle\bin\Debug\Power .NET 8.xml
+D:\Game List Browser\Battle\obj\Debug\Battle.frmMain.resources

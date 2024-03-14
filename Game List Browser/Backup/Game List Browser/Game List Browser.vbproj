@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB5CCB92-5A67-431C-B409-D56FB4F25B9A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Game_List_Browser.modMain</StartupObject>
+    <RootNamespace>Game_List_Browser</RootNamespace>
+    <AssemblyName>Game List Browser</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>Game Center.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Game List Browser.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Game List Browser.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics2.Shared.v7.3, Version=7.3.20073.38, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v7.3, Version=7.3.20073.38, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v7.3, Version=7.3.20073.38, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="Infragistics2.Win.v7.3, Version=7.3.20073.38, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" />
+    <Reference Include="MySql.Data, Version=5.2.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Power .NET 8, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PROJECT\Application\Power .Net 8\Power .NET 8\Custom Objects 8\bin\x86\Debug\Power .NET 8.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\clsLibraryCode.vb" />
+    <Compile Include="Classes\clsProgramValidation.vb" />
+    <Compile Include="Classes\WinDesktop.vb" />
+    <Compile Include="Forms\Account\frmLock.Designer.vb">
+      <DependentUpon>frmLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Account\frmLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Account\frmLogIn.Designer.vb">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Account\frmLogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Account\frmProfileInformation.Designer.vb">
+      <DependentUpon>frmProfileInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Account\frmProfileInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Account\frmRankUpdate.Designer.vb">
+      <DependentUpon>frmRankUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Account\frmRankUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Account\frmSignUp.Designer.vb">
+      <DependentUpon>frmSignUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Account\frmSignUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHomePage.Designer.vb">
+      <DependentUpon>frmHomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmEmulatorsFinder.Designer.vb">
+      <DependentUpon>frmEmulatorsFinder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmEmulatorsFinder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmEmulators.Designer.vb">
+      <DependentUpon>frmEmulators.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmEmulators.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDashboard.Designer.vb">
+      <DependentUpon>frmDashboard.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOtherGameLocator.Designer.vb">
+      <DependentUpon>frmOtherGameLocator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOtherGameLocator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Game Type\frmGameType.Designer.vb">
+      <DependentUpon>frmGameType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Game Type\frmGameType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmShadow.Designer.vb">
+      <DependentUpon>frmShadow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmShadow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Game Type\frmGameTypeFinder.Designer.vb">
+      <DependentUpon>frmGameTypeFinder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Game Type\frmGameTypeFinder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmGameDataInfo.Designer.vb">
+      <DependentUpon>frmGameDataInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmGameDataInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmGameDataInfoFinder.Designer.vb">
+      <DependentUpon>frmGameDataInfoFinder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmGameDataInfoFinder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmGameDataInfoViewer.Designer.vb">
+      <DependentUpon>frmGameDataInfoViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Emulators\frmGameDataInfoViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Message\frmMessageBox.Designer.vb">
+      <DependentUpon>frmMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Message\frmMessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Slot Machines\frmGiftBox.Designer.vb">
+      <DependentUpon>frmGiftBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Slot Machines\frmGiftBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Slot Machines\frmSlotMachines.Designer.vb">
+      <DependentUpon>frmSlotMachines.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Slot Machines\frmSlotMachines.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Slot Machines\frmTPConversion.Designer.vb">
+      <DependentUpon>frmTPConversion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Slot Machines\frmTPConversion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\modMain.vb" />
+    <Compile Include="Modules\modPublic.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Account\frmLock.resx">
+      <DependentUpon>frmLock.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Account\frmLogIn.resx">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Account\frmProfileInformation.resx">
+      <DependentUpon>frmProfileInformation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Account\frmRankUpdate.resx">
+      <DependentUpon>frmRankUpdate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Account\frmSignUp.resx">
+      <DependentUpon>frmSignUp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHomePage.resx">
+      <DependentUpon>frmHomePage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Emulators\frmEmulators.resx">
+      <DependentUpon>frmEmulators.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Emulators\frmEmulatorsFinder.resx">
+      <DependentUpon>frmEmulatorsFinder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDashboard.resx">
+      <DependentUpon>frmDashboard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOtherGameLocator.resx">
+      <DependentUpon>frmOtherGameLocator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Game Type\frmGameType.resx">
+      <DependentUpon>frmGameType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmShadow.resx">
+      <DependentUpon>frmShadow.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Game Type\frmGameTypeFinder.resx">
+      <DependentUpon>frmGameTypeFinder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Emulators\frmGameDataInfo.resx">
+      <DependentUpon>frmGameDataInfo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Emulators\frmGameDataInfoFinder.resx">
+      <DependentUpon>frmGameDataInfoFinder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Emulators\frmGameDataInfoViewer.resx">
+      <DependentUpon>frmGameDataInfoViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Message\frmMessageBox.resx">
+      <DependentUpon>frmMessageBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Slot Machines\frmGiftBox.resx">
+      <DependentUpon>frmGiftBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Slot Machines\frmSlotMachines.resx">
+      <DependentUpon>frmSlotMachines.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Slot Machines\frmTPConversion.resx">
+      <DependentUpon>frmTPConversion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play-Now-Button-PNG-Transparent-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-L-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-home-page-computer-icons-website-world-wide-web-blue-home-page-icon-png-5ab0575dd9d761.3192888215215061418923.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\231545_home_256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-background-wallpaper-1223186.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-first.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-first-disabled.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-last.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-last-disabled.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-next.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-next-disabled.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-prev.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page-prev-disabled.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_icon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialog_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1437561088_User Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\write.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0b970b3241d1d1a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ps1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ps2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\segass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package-153360_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Popcaplogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rank_Progress_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view-button-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLICK-HERE-BUTTON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XVhh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slots-image-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_136255856_XGPHT6zyNJay48Dprr0bTVYb4XlUuSaI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\Images\System\Gift Rewards\finished.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ui-bg_diagonals-thick_15_444444_40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\Images\System\Default\Crystal_Project_konqsidebar_news.png" />
+    <Content Include="Game Center.ico" />
+    <None Include="Resources\News-icon.png" />
+    <None Include="Resources\rar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
